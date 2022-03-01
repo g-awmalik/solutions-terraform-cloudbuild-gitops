@@ -1,1 +1,1 @@
-project="PROJECT_ID"
+project="gscrp-cb-demo-02"

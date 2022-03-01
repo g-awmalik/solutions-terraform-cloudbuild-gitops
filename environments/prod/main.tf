@@ -30,6 +30,7 @@ module "vpc" {
 module "http_server" {
   source  = "../../modules/http_server"
   project = "${var.project}"
+  instance_name = "${var.instance_name}"
   subnet  = "${module.vpc.subnet}"
 }
 

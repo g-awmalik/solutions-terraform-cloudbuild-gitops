@@ -14,3 +14,4 @@
 
 
 variable "project" {}
+variable "instance_name" {}
